@@ -1,0 +1,72 @@
+/* 
+  ********************************************************************************
+
+  Authors:
+
+  ********************************************************************************
+ */
+
+.homeColumn {
+  float: left;
+  width: 30%;
+  padding: 0 5px;
+}
+
+/* Clear floats after the columns */
+.homePageRow:after {
+  content: "";
+
+  display: table;
+
+  clear: both;
+}
+
+/* CSS Made for adapting to smaller screen */
+@media screen and (max-width: 600px) {
+  .homeColumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.homeCard {
+  padding: 16px;
+
+  text-align: center;
+}
+
+.bestPractices {
+  color: black;
+  font-size: medium;
+  padding: 20px;
+}
+
+.spacing {
+  padding: 20px;
+}
+
+.bottomItemSpacing {
+  padding-bottom: 15px;
+}
+
+#make1 {
+  color: black !important;
+}
+
+.responsive-Mobile-Grid-BestPractices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50rem);
+  justify-content: center;
+}
+
+.gridCard-BestPractices {
+  overflow: auto;
+  box-shadow: 0px 2px 8px 0px grey;
+  font-size: larger;
+  text-align: left;
+  border-radius: 1rem;
+  position: relative;
+  margin: 2%;
+  text-indent: 20%;
+}

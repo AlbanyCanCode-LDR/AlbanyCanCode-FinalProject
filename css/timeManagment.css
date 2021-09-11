@@ -1,0 +1,32 @@
+/* 
+  ********************************************************************************
+
+  Authors: 
+
+  ********************************************************************************
+ */
+
+.clock {
+  text-align: center;
+  font-size: 150%;
+  border: black;
+  border-style: double;
+}
+
+.timeManagmentFormApp {
+  text-align: center;
+  border: black;
+  border-style: double;
+  font-size:xx-large;
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+.timeManagmentDescription {
+  text-align: center;
+  font-size: x-large;
+}
+
+.labelHeight{
+  height: 1000px;
+}

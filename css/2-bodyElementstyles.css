@@ -1,0 +1,49 @@
+/* 
+  ********************************************************************************
+
+  Author: Lawrence Darwin Reid
+
+  ********************************************************************************
+ */
+
+body {
+  background-color: #d7f8f6;
+}
+
+a {
+  color: #0026ff;
+  font-size: x-large;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: x-large;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*                       custom classes below                            */
+
+.quote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  text-align: center;
+  color: #2b6777;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: fantasy;
+  padding: 20px;
+ 
+  
+}

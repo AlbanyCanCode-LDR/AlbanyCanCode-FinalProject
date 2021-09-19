@@ -17,6 +17,19 @@ navBar.innerHTML =
   '<div class="navLinksToTheRight"> <a href="index.html">Home</a> <a href="2-bestPractices.html">Best Practices</a> <a href="3-timeManagmentApp.html">Time Management App</a> <a href="4-ShopAndAffiliateLinks.html">Shop-Affiliates</a> <a href="5-Contact.html">Contact</a> </div>';
 nav.parentNode.replaceChild(navBar, nav);
 
+function changeToHamburgerMenu() {
+  let mobileFriendly = document.getElementById("myTopnavBar");
+  if (mobileFriendly.className === "topnavBar") {
+    mobileFriendly.className += " mobileFriendlyCSS";
+  } else {
+    mobileFriendly.className = "topnavBar";
+  }
+}
+
+
+
+
+
 /* 
 
 Steps to modify the navBar: 

@@ -7,7 +7,7 @@
  */
 
 body {
-  background-color: #d7f8f6;
+  background-color: #e8fffd;
 }
 
 a {
@@ -15,6 +15,7 @@ a {
   font-size: x-large;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
 }
 
 p {
@@ -24,6 +25,7 @@ p {
 }
 
 ol {
+  padding-top: 10px;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,14 +38,19 @@ li {
 /*                       custom classes below                            */
 
 .quote {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "DM Serif Text", serif;
   font-size: 200%;
   text-align: center;
   color: #2b6777;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
   font-family: fantasy;
-  padding: 20px;
- 
-  
+  border: #2b6777;
+
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 500px){
+  .quote{
+    padding-top: 300px;
+  }
 }

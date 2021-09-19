@@ -7,21 +7,128 @@
  */
 
 /* header css */
-.companyLogo {
+
+.hamburgerMenuHidden {
+  width: 50%;
+  height: 50%;
+
+  position: relative;
+  display: block;
+  z-index: 11;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textPadding {
+  padding-top: 60px;
+
+  position: static;
+  display: block;
+}
+.topnavBar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position: fixed;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: inline-block;
+  z-index: 6;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+a:hover {
+  background-color: rgb(214, 255, 251);
+  text-decoration: underline;
+}
+.topnavBar a {
+  float: left;
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+
+  font-size: 17px;
+}
+
+.topnavBar a.active {
+  color: white;
+}
+
+.topnavBar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .topnavBar a:not(:first-child) {
+    display: none;
+  }
+  .topnavBar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .topnavBar.mobileFriendlyCSS {
+    position: relative;
+    padding-top: 200px;
+  }
+  .topnavBar.mobileFriendlyCSS .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnavBar.mobileFriendlyCSS a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* old commented out css below */
+/* //////////////////////////////// */
+/* .companyLogo {
   font-size: 100%;
   font-weight: 100%;
-}
+} */
 /* nav css */
 
-.navLinksToTheRight {
+/* .navLinksToTheRight {
   float: right;
   
   
-}
-@media screen and (max-width: 500px) {
+} */
+/* @media screen and (max-width: 500px) { */
   /* this removes the right hand positioning when it meets the @media screen condition */
-  .navLinksToTheRight {
+  /* .navLinksToTheRight {
     float: none;
     
   }
-}
+} */

@@ -14,7 +14,7 @@ const nav = document.querySelector(".navHTML");
 const navBar = document.createElement("nav");
 
 navBar.innerHTML =
-  '<div class="navLinksToTheRight"> <a href="index.html">Home</a> <a href="2-bestPractices.html">Best Practices</a> <a href="3-timeManagmentApp.html">Time Management App</a> <a href="4-ShopAndAffiliateLinks.html">Shop-Affiliates</a> <a href="5-Contact.html">Contact</a> </div>';
+  '<div class="topnavBar" id="myTopnavBar"> <div class="topnavBar" id="myTopnavBar"> <a href="index.html"><img class="logo" title="Life Work Balance Logo" src="/media/img/potentialLogoUpdate.png" alt="Life Work Balance Logo" /></a><a href="1-index.html">Home</a> <a href="2-bestPractices.html">Best Practices</a> <a href="3-timeManagmentApp.html">Time Management App</a> <a href="4-ShopAndAffiliateLinks.html">Shop-Affiliates</a> <a href="5-Contact.html">Contact</a> </div> <a href="javascript:void(0);" class="icon" onclick="changeToHamburgerMenu()"> <img class="hamburgerMenuHidden" src="media/img/hamburgerMenuIcon/homeMadeHamburgerMenuIcon.png"  /> </a> </div>';
 nav.parentNode.replaceChild(navBar, nav);
 
 function changeToHamburgerMenu() {

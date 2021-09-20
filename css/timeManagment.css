@@ -1,7 +1,7 @@
 /* 
   ********************************************************************************
 
-  Authors: 
+  Authors: Lawrence Reid, Bita Aslam
 
   ********************************************************************************
  */
@@ -9,15 +9,16 @@
 .clock {
   text-align: center;
   font-size: 150%;
-  border: black;
+  border: rgb(120, 19, 252);
   border-style: double;
+  border-radius: .5rem;
 }
 
 .timeManagmentFormApp {
   text-align: center;
-  border: black;
+  border: rgb(120, 19, 252);
   border-style: double;
-  font-size:xx-large;
+  font-size: xx-large;
   border-radius: 2rem;
   padding: 10px;
 }
@@ -27,6 +28,6 @@
   font-size: x-large;
 }
 
-.labelHeight{
+.labelHeight {
   height: 1000px;
 }

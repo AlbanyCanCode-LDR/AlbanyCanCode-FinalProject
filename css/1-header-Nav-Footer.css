@@ -1,7 +1,7 @@
 /* 
   ********************************************************************************
 
-  Authors:
+  Authors: Lawrence Reid
 
   ********************************************************************************
  */
@@ -24,7 +24,6 @@ body {
 
 .textPadding {
   padding-top: 60px;
-
   position: static;
   display: block;
 }
@@ -54,8 +53,8 @@ a:hover {
   display: inline-block;
   color: #000000;
   text-align: center;
-
-  font-size: 17px;
+  font-size:x-large;
+  
 }
 
 .topnavBar a.active {
@@ -92,43 +91,3 @@ a:hover {
     text-align: left;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* old commented out css below */
-/* //////////////////////////////// */
-/* .companyLogo {
-  font-size: 100%;
-  font-weight: 100%;
-} */
-/* nav css */
-
-/* .navLinksToTheRight {
-  float: right;
-  
-  
-} */
-/* @media screen and (max-width: 500px) { */
-  /* this removes the right hand positioning when it meets the @media screen condition */
-  /* .navLinksToTheRight {
-    float: none;
-    
-  }
-} */

@@ -1,3 +1,10 @@
+/* 
+  ********************************************************************************
+
+  Authors: Lawrence Reid
+
+  ********************************************************************************
+ */
 * {
   box-sizing: border-box;
 }
@@ -13,7 +20,7 @@
   box-shadow: 0px 2px 8px 0px grey;
 
   text-align: center;
-  /* border-radius: 1rem; */
+  border-radius: 1rem;
   position: relative;
   margin: 0.5rem;
 }

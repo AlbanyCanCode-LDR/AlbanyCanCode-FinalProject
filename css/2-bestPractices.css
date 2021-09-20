@@ -44,7 +44,6 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   border-radius: 0.5rem;
-  border-color:rgb(120, 19, 252) ;
+  border-color: rgb(120, 19, 252);
   border-style: groove;
-
 }

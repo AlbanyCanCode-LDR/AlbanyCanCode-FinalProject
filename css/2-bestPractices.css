@@ -1,37 +1,50 @@
-.accordion {
-  background-color: #eee;
-  color: #444;
+.alignText {
+  text-align: center;
+  border: rgb(120, 19, 252);
+  border-style: groove;
+  border-radius: 0.5rem;
+}
+
+.accordionDropdown {
+  background-color: rgb(0, 4, 230);
+  color: rgb(153, 255, 139);
   cursor: pointer;
-  padding: 18px;
+  /* padding: 4px; */
   width: 100%;
-  border: none;
-  text-align: left;
+  /* border:aqua; */
+  text-align: center;
   outline: none;
   font-size: 15px;
-  transition: 0.4s;
+  transition: 0.1s;
+  border-radius: 0.5rem;
 }
 
-.active,
-.accordion:hover {
-  background-color: #ccc;
+.dropDownMenuActive,
+.accordionDropdown:hover {
+  background-color: rgb(120, 19, 252);
 }
 
-.accordion:after {
-  content: "\002B";
-  color: #777;
-  font-weight: bold;
+.accordionDropdown:after {
+  /* content: "\002B"; */
+  color: rgb(13, 17, 224);
+  /* font-weight: bold; */
   float: right;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
-.active:after {
+/* .dropDownMenuActive:after {
   content: "\2212";
-}
+} */
 
-.panel {
-  padding: 0 18px;
+.dropDownPanel {
+  /* padding: 0 18px; */
+  /* padding:  18px; */
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  border-radius: 0.5rem;
+  border-color:rgb(120, 19, 252) ;
+  border-style: groove;
+
 }

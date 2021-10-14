@@ -8,6 +8,7 @@
 
 body {
   background-color: #e8fffd;
+  padding-left: 20px;
 }
 
 a {
@@ -49,8 +50,8 @@ li {
   padding-top: 200px;
 }
 
-@media screen and (max-width: 500px){
-  .quote{
+@media screen and (max-width: 500px) {
+  .quote {
     padding-top: 300px;
   }
 }

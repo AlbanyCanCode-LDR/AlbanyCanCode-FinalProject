@@ -43,4 +43,7 @@
 .contactLabel,
 .submitButton {
   font-size: larger;
+  width: 400px;
+  
+  
 }
